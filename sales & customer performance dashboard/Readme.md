@@ -61,7 +61,7 @@ Features:
 
 ### Regional Performance
 
-![Regional Performance](images/regional-performance.png)
+![Regional Performance](images/Screenshot 2026-06-24 173858.png)
 
 Features:
 
