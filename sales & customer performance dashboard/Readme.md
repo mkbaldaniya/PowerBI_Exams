@@ -1,12 +1,16 @@
 # 📊 Sales & Customer Intelligence Dashboard
 
-## Dashboard Preview
+## Overview
 
-### Executive Dashboard
+A comprehensive Power BI dashboard designed to analyze Sales Performance, Customer Behavior, Product Performance, Returns Analysis, and Regional Insights using an interactive multi-page reporting solution.
 
-![Executive Dashboard](images/executive-dashboard.png)
+---
 
-Features:
+## Executive Dashboard
+
+![Executive Dashboard](Images/executive-dashboard.png)
+
+Key Metrics:
 
 * Total Sales
 * Total Orders
@@ -14,67 +18,82 @@ Features:
 * Total Units Sold
 * Total Returns
 * Return Rate %
+
+Visuals:
+
 * Sales Trend Analysis
+* Sales by Category
 * Sales by Region
-* Top Products Analysis
+* Top 10 Products by Sales
 
 ---
 
-### Customer Analysis
+## Customer Analysis
 
-![Customer Analysis](images/customer-analysis.png)
+![Customer Analysis](Images/customer-analysis.png)
 
-Features:
+Key Metrics:
 
-* Customer Segmentation
+* Total Customers
+* Average Order Value
+
+Visuals:
+
+* Sales by Customer Segment
 * Top Customers by Sales
-* Customer Distribution by Region
-* Average Order Value Analysis
+* Customers by Region
 
 ---
 
-### Product Analysis
+## Product Analysis
 
-![Product Analysis](images/product-analysis.png)
+![Product Analysis](Images/product-analysis.png)
 
-Features:
+Visuals:
 
-* Product Performance
-* Category Analysis
-* Sub-Category Analysis
 * Product Sales Ranking
+* Category Performance
+* Sub-Category Analysis
 
 ---
 
-### Returns Dashboard
+## Returns Dashboard
 
-![Returns Dashboard](images/returns-dashboard.png)
+![Returns Dashboard](Images/returns-dashboard.png)
 
-Features:
+Visuals:
 
 * Return Reason Analysis
 * Returns by Category
-* Return Rate Monitoring
-* Product Return Performance
+* Product Return Analysis
+* Return Rate Matrix
 
 ---
 
-### Regional Performance
+## Regional Performance
 
-![Regional Performance](images/Screenshot 2026-06-24 173858.png)
+![Regional Performance](Images/regional-performance.png)
 
-Features:
+Visuals:
 
 * Regional Sales Analysis
 * Regional Customer Analysis
-* Segment Distribution
-* Regional KPI Tracking
+* Segment Distribution by Region
 
 ---
 
-## Data Model
+## Dataset Tables
 
-### Measures Used
+* Date_Dim
+* Customer_Dim
+* Product_Dim
+* Sales_Fact
+* Returns_Fact
+* Region_Dim
+
+---
+
+## DAX Measures
 
 ```DAX
 Total Sales
@@ -84,20 +103,41 @@ Total Units Sold
 Total Returns
 Return Rate %
 Average Order Value
+Returned Products
 Sales YTD
 Sales PY
 YOY %
 MOM %
-Returned Products
 ```
 
-## Tools & Technologies
+---
+
+## Features
+
+✅ Star Schema Data Model
+
+✅ Time Intelligence Calculations
+
+✅ Interactive Slicers
+
+✅ Multi-Page Navigation
+
+✅ KPI Cards
+
+✅ Drill-through Analysis
+
+✅ Mobile Layout Support
+
+---
+
+## Tools Used
 
 * Power BI Desktop
-* Power Query
 * DAX
+* Power Query
 * Excel
-* Data Modeling
+
+---
 
 ## Author
 
