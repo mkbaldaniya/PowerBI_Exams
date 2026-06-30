@@ -24,13 +24,13 @@ The dashboard enables teachers, school administrators, and management teams to i
 
 ## 🏠 Academic Dashboard
 
-![Dashboard](Images/dashboard-overview.png)
+![Dashboard Overview](Images/Dashboard-Overview.png)
 
 ---
 
 ## 👨‍🎓 Student Profile
 
-![Student Profile](Images/student-profile.png)
+![Student Profile](Images/Student-Profile.png)
 
 ---
 
@@ -144,7 +144,7 @@ COUNTROWS(Behavior)
 
 The dashboard follows a Star Schema data model.
 
-![Data Model](Images/data-model.png)
+![Data Model](Images/Data-Model.png)
 
 ---
 
@@ -159,7 +159,7 @@ Tasks Performed
 - Data Validation
 - Relationship Preparation
 
-![Power Query](Images/power-query.png)
+![Power Query](Images/Power-Query.png)
 
 ---
 
@@ -174,7 +174,7 @@ A dedicated Student Profile page allows users to drill down into individual stud
 - Attendance History
 - Behavior Records
 
-![Drillthrough](Images/drillthrough.png)
+![Drillthrough](Images/Drillthrough.png)
 
 ---
 
@@ -188,7 +188,7 @@ Student performance is highlighted using dynamic colors.
 | 40% - 80% | 🟡 Yellow |
 | Below 40% | 🔴 Red |
 
-![Conditional Formatting](Images/conditional-formatting.png)
+![Conditional Formatting](Images/Conditional-Formatting.png)
 
 ---
 
@@ -202,7 +202,7 @@ Users can dynamically filter reports by
 - Gender
 - Term
 
-![Filters](Images/filters.png)
+![Filters & Slicers](Images/Filters-Slicers.png)
 
 ---
 
